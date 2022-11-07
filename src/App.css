@@ -1,0 +1,58 @@
+ /* navbar  */
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.navSize{
+    background-color:#102039 ;
+    padding:.4rem;
+     align-items:center;
+     display: flex;
+     justify-content: space-between;
+}
+.Anav{
+    color:white;
+    padding: 0rem 1rem;
+    text-decoration:none;
+    font-size:1rem;
+    font-weight:bold;
+}
+.Anav:hover{
+    color:rgb(183, 183, 183);
+   
+}
+.sidebar{
+    color:white;padding: 0rem .5rem;text-decoration:none;font-size:1rem;font-weight:bold;
+}
+.menu{
+    display: none;
+}
+@media (max-width:1000px) {
+    .Anav{
+       
+        display: none;
+        
+    }
+    .navSize{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+    .sidebar{
+        font-size: .5rem;
+    }
+    .menu{
+        display: block;
+        cursor: pointer;
+    }
+}
+/* headings */
+.h1{
+    text-align:center;
+    margin-top:1rem ;
+    /* background-color:#102039; */
+    color:rgb(148, 0, 0);
+    padding:1rem;
+}
+.fas{
+    color:white;
+    width: 3rem;
+}
